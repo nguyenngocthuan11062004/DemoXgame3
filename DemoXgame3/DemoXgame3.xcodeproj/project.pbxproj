@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C05945E1133C6890CBE19BBF /* Pods_DemoXgame3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7D921356B942D7C549C2E8C /* Pods_DemoXgame3.framework */; };
+		E43710142EB30A160003B1EA /* videotest2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E43710122EB30A160003B1EA /* videotest2.mp4 */; };
+		E43710152EB30A160003B1EA /* videotest3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E43710132EB30A160003B1EA /* videotest3.mp4 */; };
+		E43710162EB30A160003B1EA /* videotest1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E43710112EB30A160003B1EA /* videotest1.mp4 */; };
+		E4E3E3C92EB3560900120150 /* videotest6.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4E3E3C82EB3560900120150 /* videotest6.mp4 */; };
+		E4E3E3CA2EB3560900120150 /* videotest4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4E3E3C62EB3560900120150 /* videotest4.mp4 */; };
+		E4E3E3CB2EB3560900120150 /* videotest5.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4E3E3C72EB3560900120150 /* videotest5.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5C4E27DF4B76B95F2D0588D0 /* Pods-DemoXgame3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoXgame3.release.xcconfig"; path = "Target Support Files/Pods-DemoXgame3/Pods-DemoXgame3.release.xcconfig"; sourceTree = "<group>"; };
+		7F52B6F0DC89E9534362DED4 /* Pods-DemoXgame3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoXgame3.debug.xcconfig"; path = "Target Support Files/Pods-DemoXgame3/Pods-DemoXgame3.debug.xcconfig"; sourceTree = "<group>"; };
+		E43710112EB30A160003B1EA /* videotest1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = videotest1.mp4; sourceTree = "<group>"; };
+		E43710122EB30A160003B1EA /* videotest2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = videotest2.mp4; sourceTree = "<group>"; };
+		E43710132EB30A160003B1EA /* videotest3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = videotest3.mp4; sourceTree = "<group>"; };
+		E46E6C142EB24C6600CCA592 /* DemoXgame3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoXgame3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4E3E3C62EB3560900120150 /* videotest4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = videotest4.mp4; sourceTree = "<group>"; };
+		E4E3E3C72EB3560900120150 /* videotest5.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = videotest5.mp4; sourceTree = "<group>"; };
+		E4E3E3C82EB3560900120150 /* videotest6.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = videotest6.mp4; sourceTree = "<group>"; };
+		E7D921356B942D7C549C2E8C /* Pods_DemoXgame3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoXgame3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		E46E6C352EB2551B00CCA592 /* Exceptions for "DemoXgame3" folder in "DemoXgame3" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = E46E6C132EB24C6600CCA592 /* DemoXgame3 */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		E46E6C162EB24C6600CCA592 /* DemoXgame3 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				E46E6C352EB2551B00CCA592 /* Exceptions for "DemoXgame3" folder in "DemoXgame3" target */,
+			);
+			path = DemoXgame3;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E46E6C112EB24C6600CCA592 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C05945E1133C6890CBE19BBF /* Pods_DemoXgame3.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14D46521D0C08BC8CC478ECA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F52B6F0DC89E9534362DED4 /* Pods-DemoXgame3.debug.xcconfig */,
+				5C4E27DF4B76B95F2D0588D0 /* Pods-DemoXgame3.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6E5B0685FD433002D294FE97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7D921356B942D7C549C2E8C /* Pods_DemoXgame3.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E46E6C0B2EB24C6600CCA592 = {
+			isa = PBXGroup;
+			children = (
+				E46E6C162EB24C6600CCA592 /* DemoXgame3 */,
+				E46E6C152EB24C6600CCA592 /* Products */,
+				E4E3E3C62EB3560900120150 /* videotest4.mp4 */,
+				E4E3E3C72EB3560900120150 /* videotest5.mp4 */,
+				E4E3E3C82EB3560900120150 /* videotest6.mp4 */,
+				E43710112EB30A160003B1EA /* videotest1.mp4 */,
+				E43710122EB30A160003B1EA /* videotest2.mp4 */,
+				E43710132EB30A160003B1EA /* videotest3.mp4 */,
+				14D46521D0C08BC8CC478ECA /* Pods */,
+				6E5B0685FD433002D294FE97 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E46E6C152EB24C6600CCA592 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E46E6C142EB24C6600CCA592 /* DemoXgame3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E46E6C132EB24C6600CCA592 /* DemoXgame3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E46E6C1F2EB24C6700CCA592 /* Build configuration list for PBXNativeTarget "DemoXgame3" */;
+			buildPhases = (
+				01D9BD7349B66653A030162E /* [CP] Check Pods Manifest.lock */,
+				E46E6C102EB24C6600CCA592 /* Sources */,
+				E46E6C112EB24C6600CCA592 /* Frameworks */,
+				E46E6C122EB24C6600CCA592 /* Resources */,
+				63B00D8A4487AD208D874A96 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E46E6C162EB24C6600CCA592 /* DemoXgame3 */,
+			);
+			name = DemoXgame3;
+			packageProductDependencies = (
+				E46E6C502EB2ED3E00CCA592 /* RealmSwift */,
+				E4B60E5B2EB2EF3F0056BBE7 /* RealmSwift */,
+			);
+			productName = DemoXgame3;
+			productReference = E46E6C142EB24C6600CCA592 /* DemoXgame3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E46E6C0C2EB24C6600CCA592 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					E46E6C132EB24C6600CCA592 = {
+						CreatedOnToolsVersion = 26.0;
+					};
+				};
+			};
+			buildConfigurationList = E46E6C0F2EB24C6600CCA592 /* Build configuration list for PBXProject "DemoXgame3" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E46E6C0B2EB24C6600CCA592;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E46E6C152EB24C6600CCA592 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E46E6C132EB24C6600CCA592 /* DemoXgame3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E46E6C122EB24C6600CCA592 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E43710142EB30A160003B1EA /* videotest2.mp4 in Resources */,
+				E43710152EB30A160003B1EA /* videotest3.mp4 in Resources */,
+				E4E3E3C92EB3560900120150 /* videotest6.mp4 in Resources */,
+				E4E3E3CA2EB3560900120150 /* videotest4.mp4 in Resources */,
+				E4E3E3CB2EB3560900120150 /* videotest5.mp4 in Resources */,
+				E43710162EB30A160003B1EA /* videotest1.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01D9BD7349B66653A030162E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DemoXgame3-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63B00D8A4487AD208D874A96 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DemoXgame3/Pods-DemoXgame3-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DemoXgame3/Pods-DemoXgame3-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DemoXgame3/Pods-DemoXgame3-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E46E6C102EB24C6600CCA592 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E46E6C1D2EB24C6700CCA592 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = AQVR9LTJH4;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E46E6C1E2EB24C6700CCA592 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = AQVR9LTJH4;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E46E6C202EB24C6700CCA592 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F52B6F0DC89E9534362DED4 /* Pods-DemoXgame3.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AQVR9LTJH4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DemoXgame3/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.viettel.cloud.ca.mysign22;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E46E6C212EB24C6700CCA592 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C4E27DF4B76B95F2D0588D0 /* Pods-DemoXgame3.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AQVR9LTJH4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DemoXgame3/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.viettel.cloud.ca.mysign22;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E46E6C0F2EB24C6600CCA592 /* Build configuration list for PBXProject "DemoXgame3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E46E6C1D2EB24C6700CCA592 /* Debug */,
+				E46E6C1E2EB24C6700CCA592 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E46E6C1F2EB24C6700CCA592 /* Build configuration list for PBXNativeTarget "DemoXgame3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E46E6C202EB24C6700CCA592 /* Debug */,
+				E46E6C212EB24C6700CCA592 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E46E6C502EB2ED3E00CCA592 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealmSwift;
+		};
+		E4B60E5B2EB2EF3F0056BBE7 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E46E6C0C2EB24C6600CCA592 /* Project object */;
+}

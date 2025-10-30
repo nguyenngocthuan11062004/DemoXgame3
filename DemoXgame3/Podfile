@@ -1,0 +1,7 @@
+platform :ios, '17.0'
+use_frameworks! :linkage => :static
+
+target 'DemoXgame3' do
+  pod 'RealmSwift'
+end
+
