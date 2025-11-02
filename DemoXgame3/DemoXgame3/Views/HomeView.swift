@@ -26,14 +26,16 @@ struct HomeView: View {
                             .font(.custom("Zain-Bold", size: 32))
                             .foregroundColor(.white)
                             .shadow(radius: 2)
+                            .padding(.leading, 20)
                         Spacer()
                         HStack(spacing: 12) {
                             CircleIconButton(imageName: "ic_premium")
                             CircleIconButton(imageName: "ic_setting")
                         }
+                        .padding(.trailing, 16)
                     }
-                    .padding(.horizontal, 40)
-                    .padding(.top, 4)
+                    .padding(.top, 26)
+                    .padding(.horizontal,22)
 
                     HStack {
                         Spacer()

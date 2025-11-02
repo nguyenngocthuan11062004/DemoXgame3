@@ -214,7 +214,6 @@ struct TikTokVideoCell: View {
                 }
             }
         }
-//        .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(Color.black)
         .clipped()
     }

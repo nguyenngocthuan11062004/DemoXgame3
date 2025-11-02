@@ -4,12 +4,9 @@ import RealmSwift
 struct MyRecordView: View {
     @ObservedResults(VideoEntity.self) var videos
     @State private var goTikTok = false
-
     @State private var selectedIndexes: Set<Int> = []
-
-    private var chips: [String] {
-        videos.map { $0.hashtag }
-    }
+    @State private var selectedChip = 0
+    private let chips = ["Filter Quiz", "Filter Quiz", "Filter Quiz", "Filter Quiz"]
 
     var body: some View {
         NavigationStack {
@@ -36,19 +33,16 @@ struct MyRecordView: View {
                     ScrollView(.horizontal, showsIndicators: false) {
                         HStack(spacing: 12) {
                             ForEach(chips.indices, id: \.self) { i in
-                                let title = chips[i]
-                                RecordFilterChip(
-                                    title: title,
-                                    isSelected: selectedIndexes.contains(i),
-                                    onTap: { toggleChip(at: i) }
-                                )
+                                FilterChip(
+                                    title: chips[i],
+                                    isSelected: selectedChip == i
+                                ) { selectedChip = i }
                             }
                         }
                         .padding(.horizontal, 20)
                         .padding(.vertical, 10)
                     }
 
-                    // Grid video
                     ScrollView(.vertical, showsIndicators: false) {
                         LazyVGrid(
                             columns: [
@@ -149,25 +143,6 @@ struct MyRecordView: View {
     }
 }
 
-private struct RecordFilterChip: View {
-    let title: String
-    let isSelected: Bool
-    var onTap: () -> Void
-
-    var body: some View {
-        Text(title)
-            .font(.custom("Zain-Bold", size: 16))
-            .foregroundColor(isSelected ? .white : .black)
-            .padding(.vertical, 4)
-            .padding(.horizontal, 24)
-            .background(
-                RoundedRectangle(cornerRadius: 18)
-                    .fill(isSelected ? .black.opacity(0.3) : .white)
-            )
-            .onTapGesture { onTap() }
-    }
-}
-
 private extension Int {
     var abbreviated: String {
         if self >= 1_000_000 {
@@ -178,4 +153,20 @@ private extension Int {
                 .replacingOccurrences(of: ".0", with: "")
         } else { return "\(self)" }
     }
+}
+#Preview {
+    let realm = try! Realm(configuration: Realm.Configuration(inMemoryIdentifier: "PreviewRealm"))
+    try! realm.write {
+        realm.deleteAll()
+        for i in 0..<6 {
+            let v = VideoEntity()
+            v.background = "testimg"
+            v.hashtag = "#Tag\(i)"
+            v.likes = Int.random(in: 5000...150000)
+            realm.add(v)
+        }
+    }
+
+    return MyRecordView()
+        .environment(\.realm, realm)
 }
