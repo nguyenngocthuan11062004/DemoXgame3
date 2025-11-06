@@ -2,11 +2,21 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSCameraUsageDescription</key>
+	<string>Chúng tôi cần quyền truy cập camera để nhận diện khuôn mặt</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>Zain-Bold.ttf</string>
 		<string>Zain-Black.ttf</string>
 		<string>Zain-Regular.ttf</string>
+		<string>Inter_18pt-Medium.ttf</string>
+		<string>Inter_18pt-Regular.ttf</string>
+		<string>Grandstander-Black.ttf</string>
+		<string>BeVietnamPro-Bold.ttf</string>
+		<string>BeVietnamPro-SemiBold.ttf</string>
+		<string>Inter_18pt-ExtraBold.ttf</string>
+		<string>Grandstander-Bold.ttf</string>
+		<string>Grandstander-SemiBold.ttf</string>
 	</array>
 </dict>
 </plist>

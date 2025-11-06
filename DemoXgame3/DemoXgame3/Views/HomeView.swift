@@ -9,6 +9,7 @@ import SwiftUI
 
 struct HomeView: View {
     @State private var goTiktok = false
+    @State private var showIAP = false
 
     var body: some View {
         NavigationStack {
@@ -39,7 +40,9 @@ struct HomeView: View {
 
                     HStack {
                         Spacer()
-                        Button(action: {}) {
+                        Button(action: {
+                            showIAP = true
+                        }) {
                             Text("PLAY NOW")
                                 .font(.custom("Zain-Black", size: 20))
                                 .foregroundColor(.white)
@@ -72,11 +75,17 @@ struct HomeView: View {
             }
             .navigationBarHidden(true)
             .background(
-                NavigationLink("", isActive: $goTiktok) {
-                    TikTokStyleVideoView()
+                Group {
+                    NavigationLink("", isActive: $goTiktok) {
+                        TikTokStyleVideoView()
+                    }
+                    .hidden()
                 }
-                .hidden()
             )
+            .fullScreenCover(isPresented: $showIAP) {
+                IapMainViews()
+                    .ignoresSafeArea()
+            }
         }
     }
 }
@@ -90,6 +99,3 @@ struct CircleIconButton: View {
     }
 }
 
-#Preview {
-    HomeView()
-}

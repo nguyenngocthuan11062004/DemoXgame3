@@ -253,8 +253,3 @@ struct TikTokVideoCell: View {
         return "\(n)"
     }
 }
-
-#Preview {
-    TikTokStyleVideoView()
-//        .environmentObject(UIState())
-}

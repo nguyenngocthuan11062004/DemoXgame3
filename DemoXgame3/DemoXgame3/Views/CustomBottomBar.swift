@@ -48,7 +48,9 @@ struct CustomBottomBar: View {
                 .padding(.horizontal, 65)
                 .frame(height: height)
 
-                Button(action: onCenterTap) {
+                Button(action: {
+                    onCenterTap() // Gọi callback khi người dùng tap vào nút trung tâm
+                }) {
                     Image(centerImageName)
                         .resizable()
                         .scaledToFit()
@@ -69,7 +71,6 @@ struct CustomBottomBar: View {
         }
     }
 }
-
 
 private struct TabButton: View {
     let icon: String
@@ -93,18 +94,5 @@ private struct TabButton: View {
         }
         .buttonStyle(PlainButtonStyle())
         .contentShape(Rectangle())
-    }
-}
-
-#Preview {
-    VStack {
-        Spacer()
-        CustomBottomBar(
-            selectedIndex: .constant(0),
-            leftTab: .init(Icon: "ic_house_on", title: "Home"),
-            rightTab: .init(Icon: "ic_myrecord_off", title: "My Record"),
-            centerImageName: "ic_camera",
-            onCenterTap: { print("Camera tapped") }
-        )
     }
 }

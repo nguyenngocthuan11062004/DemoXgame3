@@ -1,3 +1,4 @@
 ${PODS_ROOT}/Target Support Files/Pods-DemoXgame3/Pods-DemoXgame3-resources.sh
 ${PODS_CONFIGURATION_BUILD_DIR}/Realm/realm_objc_privacy.bundle
 ${PODS_CONFIGURATION_BUILD_DIR}/RealmSwift/realm_swift_privacy.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/lottie-ios/LottiePrivacyInfo.bundle
